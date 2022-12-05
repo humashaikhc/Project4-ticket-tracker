@@ -1,5 +1,5 @@
 
-import './App.css';
+import './App.scss';
 import team from "./data/employee";
 
 import TicketTracker from "./Container/TicketTracker";
