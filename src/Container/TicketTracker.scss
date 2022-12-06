@@ -3,8 +3,8 @@
 .card{
     background-color: $color-button;
     text-align: center;
-    width: 270px;
-    height: 60vh;
+    width: 250px;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -14,19 +14,10 @@
     border: 5px solid $color-background;
 
 }
-
-@media  screen and (min-width:690 ){
-    .card{
-       
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 25px;
-        margin-bottom: 20px;
-
-  
-      
-        
-    
-    }
-
+.card__container{
+   display:grid;
+   grid-template-columns: repeat(auto-fit,minmax(15rem,1fr)); 
+   gap:1rem;
+   justify-content: center;
+   margin-right: 2rem;
 }

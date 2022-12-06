@@ -7,7 +7,7 @@ import TicketTracker from "./Container/TicketTracker";
 
 const App = () => {
   return (
-    <div>
+    <div className="app">
       <header className="ticket">
         <h1 className="ticket__heading">Ticket Tracker</h1>
         <main className="ticket__card">
