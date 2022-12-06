@@ -1,0 +1,27 @@
+@use "../../sass/variables" as *;
+
+.counter{
+    height: 100px;
+    width: 150px;
+    background-color: $color-primary;
+    margin: 20px;
+    padding: 5px;
+    padding-top: 8px;
+    font-size:20px;
+    &__button-container{
+        display:flex;
+        flex-direction: row;
+        gap: 1.2rem;
+        justify-content: center;
+        align-items: center;
+        height: 5.5rem;
+        margin-top: -1rem;
+    }
+    }
+button{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 18px;
+}

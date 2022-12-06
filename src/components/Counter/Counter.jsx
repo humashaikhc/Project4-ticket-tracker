@@ -20,14 +20,12 @@ return (
       <div className="counter__button-container">
       <button
           className="counter__button--decrement"
-          onClick={handleDecrement}><i className="fas fa-arrow-circle-down"></i>
+          onClick={handleDecrement}> -
         </button>
         <h5 className="counter__tracker">{counter}</h5>
         <button
           className="counter__button--increment"
-          onClick={handleIncrement}
-        >
-          <i className="fas fa-arrow-circle-up"></i>
+          onClick={handleIncrement}> +
         </button>
       </div>
     </div>
